@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <header>
+      <h1>Interactive Quiz</h1>
+      <div class="score">
+        <span>Score: </span><span id="score-display">0</span> / <span id="total-questions"></span>
+      </div>
+    </header>
+    <div id="quiz"></div>
+    <div class="buttons">
+      <button id="submit" class="hidden">Submit</button>
+      <button id="next" class="hidden">Next Question</button>
+    </div>
+    <div id="results" class="hidden"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
